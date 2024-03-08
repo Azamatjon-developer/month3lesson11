@@ -1,0 +1,48 @@
+
+header{
+    .header_nav{
+        width: 100%;
+        max-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px 0px;
+
+        .header_btn{
+            padding: 7px 20px;
+            background-color: #84A17D;
+            border-radius: 8px;
+            color:#fff;
+            border:none;
+            outline: none;
+        }
+       
+        .header_list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            color:#fff;
+        }
+
+    }
+}
+
+
+
+@media (max-width:800px) {
+    
+    .header_btn{
+      display: none;
+
+    }
+
+    .header_list li{
+        display: none;
+    }
+
+    
+}
+
+
+
